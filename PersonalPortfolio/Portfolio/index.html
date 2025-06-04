@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nicolò Nordio</title>
+    <link rel="icon" href="assets/logo.png">
+</head>
+
+<body>
+    <nav>
+        <div class="links">
+            <a href="#about" class="active">About</a>
+            <a href="#works">Works</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contact me</a>
+        </div>
+    </nav>
+
+    <div class="about">
+        <div class="left">
+            <h3>IT student</h3>
+            <div class="info">
+                <h2>I'm Nicolò Nordio</h2>
+                <p>I’m an IT student at ITIS Carlo Zuccante, also working on personal projects and attending courses
+                    to enhance my skills. I'm very motivated and a fast learner, passionate about
+                    Software Development, especially Java and Javascript.</p>
+                <div class="buttons">
+                    <button class="resume">
+                        <a href="assets/NordioNicoloCV.pdf" download>Download Resume</a><i
+                            class="fa-solid fa-file-arrow-down"></i>
+                    </button>
+                    <button class="email">
+                        Copy Email <i class="fa-regular fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <p class="online"><i class="fa-solid fa-circle"></i>Available for Job</p>
+            <img src="assets/profile.jpg">
+        </div>
+    </div>
+
+    <div class="works" id="works">
+        <div class="left">
+            <h3>Recent Works <i class="fa-solid fa-briefcase"></i></h3>
+            <div class="works-list">
+                <div class="item">
+                    <div class="work-info">
+                        <h5 class="active">Private lessons of Physics and Maths</h5>
+                        <p>01/2024 - Present</p>
+                    </div>
+                    <p>Home</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Waiter</h5>
+                        <p>07/2024 - 12/2024</p>
+                    </div>
+                    <p>Befed</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="item" id="projects">
+                <h3>About My Projects <i class="fa-solid fa-diagram-project"></i></h3>
+                <p>
+                    These are the latest and most important projects created, at school or at home, related to my career
+                    so far.
+                </p>
+            </div>
+            <div class="cards">
+                <div class="card fade">
+                    <a href="https://github.com/Nicolo-Nordio/TPSIT_2023/tree/main/Space_Defender" target="_blank">
+                        <div class="card-info">
+                            <h3 class="card-title">Galactic Defender</h3>
+                            <p class="card-text">
+                                The game, developed in Java using the GDX library, incorporates spaceship skins from
+                                "Star Wars".
+                            </p>
+                        </div>
+                        <img src="assets/gdefender.png">
+                    </a>
+                </div>
+                <div class="card fade">
+                    <a href="https://github.com/Nicolo-Nordio/TPSIT_2023/tree/main/ER_Game" target="_blank">
+                        <div class="card-info">
+                            <h3 class="card-title">ERGame</h3>
+                            <p class="card-text">
+                                In this endless run game developed in Java using the GDX library, you play as a knight
+                                who must collect all the coins.
+                            </p>
+                        </div>
+                        <img src="assets/ergame.png">
+                    </a>
+                </div>
+                <div class="card fade">
+                    <a href="https://github.com/Nicolo-Nordio/Informatica-4IB/tree/main/ConvertitoreValuta"
+                        target="_blank">
+                        <div class="card-info">
+                            <h3 class="card-title">Currency Conversion</h3>
+                            <p class="card-text">
+                                A currency converter developed in Java that uses a database for currency exchange rates
+                                storage.
+                            </p>
+                        </div>
+                        <img src="assets/cvaluta.png">
+                    </a>
+                </div>
+                <div class="card fade">
+                    <a href="https://github.com/Nicolo-Nordio/Informatica-4IB/tree/main/Calcolatrice" target="_blank">
+                        <div class="card-info">
+                            <h3 class="card-title">Calculator</h3>
+                            <p class="card-text">
+                                A calculator made in Java using the Vue.js framework.
+                            </p>
+                        </div>
+                        <img src="assets/calc.png">
+                    </a>
+                </div>
+                <div class="card fade">
+                    <a href="https://github.com/Nicolo-Nordio/Informatica-4IB/tree/main/TicTacToe" target="_blank">
+                        <div class="card-info">
+                            <h3 class="card-title">Tic Tac Toe</h3>
+                            <p class="card-text">
+                                A Java game called "Tic Tac Toe" involves player playing against the computer.
+                            </p>
+                        </div>
+                        <img src="assets/tictactoe.png">
+                    </a>
+                </div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2024-Nicolò Nordio</p>
+        <div class="socials" id="contacts">
+            <a href="https://mail.google.com/mail/u/1/#inbox?compose=jrjtXDzSMjfxnJlXJxsSNQgNHpjhnzjPJSwClmSnjbfGzZLvcGLbvZbxXMfFHSjpHfnGmjWW"
+                target="_blank"><i class="fa-regular fa-envelope"></i> Gmail</a>
+            <a href="https://github.com/Nicolo-Nordio" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+            <a href="https://www.instagram.com/nico_nordio/" target="_blank"><i class="fa-brands fa-instagram"></i>
+                Instagram</a>
+            <a href="https://t.me/CompleteNote273" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a>
+        </div>
+        <p class="online"><i class="fa-solid fa-circle"></i>Available for Job</p>
+    </footer>
+    <div id="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
